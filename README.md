@@ -11,7 +11,7 @@ A category on NSString for checking if a string is an email address.
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add `NSString-Email` to your project.
 
-* Add a pod entry for NSUserDefaults-AESEncryptor to your Podfile `pod 'NSString-Email', '~> 0.0.1'`
+* Add a pod entry for NSString-Email to your Podfile `pod 'NSString-Email', '~> 0.0.1'`
 * Install the pod(s) by running `pod install`.
 
 ### Source files
@@ -34,4 +34,4 @@ This code is distributed under the terms and conditions of the [MIT license](LIC
 
 ## Change-log
 
-A brief summary of each NSUserDefaults-AESEncryptor release can be found on the [wiki](https://github.com/NZN/NSString-Email/wiki/Change-log).
+A brief summary of each NSString-Email release can be found on the [wiki](https://github.com/NZN/NSString-Email/wiki/Change-log).
