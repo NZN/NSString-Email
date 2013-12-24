@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8389A2A1869B97400605A81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8389A291869B97400605A81 /* Foundation.framework */; };
+		F8389A2C1869B97400605A81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8389A2B1869B97400605A81 /* CoreGraphics.framework */; };
+		F8389A2E1869B97400605A81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8389A2D1869B97400605A81 /* UIKit.framework */; };
+		F8389A831869BB0F00605A81 /* NZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8389A761869BB0F00605A81 /* NZViewController.m */; };
+		F8389A841869BB0F00605A81 /* NZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8389A781869BB0F00605A81 /* NZAppDelegate.m */; };
+		F8389A851869BB0F00605A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8389A7A1869BB0F00605A81 /* Main.storyboard */; };
+		F8389A861869BB0F00605A81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8389A7C1869BB0F00605A81 /* Images.xcassets */; };
+		F8389A871869BB0F00605A81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8389A7E1869BB0F00605A81 /* InfoPlist.strings */; };
+		F8389A881869BB0F00605A81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8389A801869BB0F00605A81 /* main.m */; };
+		F8389A8D1869C03A00605A81 /* NSString+Email.m in Sources */ = {isa = PBXBuildFile; fileRef = F8389A8C1869C03A00605A81 /* NSString+Email.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8389A261869B97400605A81 /* NSString-Email.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSString-Email.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8389A291869B97400605A81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8389A2B1869B97400605A81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8389A2D1869B97400605A81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8389A481869B97500605A81 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F8389A751869BB0F00605A81 /* NZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZViewController.h; sourceTree = "<group>"; };
+		F8389A761869BB0F00605A81 /* NZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZViewController.m; sourceTree = "<group>"; };
+		F8389A771869BB0F00605A81 /* NZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NZAppDelegate.h; sourceTree = "<group>"; };
+		F8389A781869BB0F00605A81 /* NZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NZAppDelegate.m; sourceTree = "<group>"; };
+		F8389A7B1869BB0F00605A81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8389A7C1869BB0F00605A81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8389A7F1869BB0F00605A81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8389A801869BB0F00605A81 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8389A811869BB0F00605A81 /* NSString-Email-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NSString-Email-Info.plist"; sourceTree = "<group>"; };
+		F8389A821869BB0F00605A81 /* NSString-Email-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-Email-Prefix.pch"; sourceTree = "<group>"; };
+		F8389A8B1869C03A00605A81 /* NSString+Email.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Email.h"; sourceTree = "<group>"; };
+		F8389A8C1869C03A00605A81 /* NSString+Email.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Email.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8389A231869B97400605A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8389A2C1869B97400605A81 /* CoreGraphics.framework in Frameworks */,
+				F8389A2E1869B97400605A81 /* UIKit.framework in Frameworks */,
+				F8389A2A1869B97400605A81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8389A1D1869B97300605A81 = {
+			isa = PBXGroup;
+			children = (
+				F8389A721869BB0F00605A81 /* Example */,
+				F8389A281869B97400605A81 /* Frameworks */,
+				F8389A8A1869BB1E00605A81 /* NSString-Email */,
+				F8389A271869B97400605A81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8389A271869B97400605A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8389A261869B97400605A81 /* NSString-Email.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8389A281869B97400605A81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8389A291869B97400605A81 /* Foundation.framework */,
+				F8389A2B1869B97400605A81 /* CoreGraphics.framework */,
+				F8389A2D1869B97400605A81 /* UIKit.framework */,
+				F8389A481869B97500605A81 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8389A721869BB0F00605A81 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F8389A731869BB0F00605A81 /* Classes */,
+				F8389A7C1869BB0F00605A81 /* Images.xcassets */,
+				F8389A7D1869BB0F00605A81 /* SupportingFiles */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		F8389A731869BB0F00605A81 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F8389A771869BB0F00605A81 /* NZAppDelegate.h */,
+				F8389A781869BB0F00605A81 /* NZAppDelegate.m */,
+				F8389A741869BB0F00605A81 /* Controllers */,
+				F8389A791869BB0F00605A81 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F8389A741869BB0F00605A81 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8389A751869BB0F00605A81 /* NZViewController.h */,
+				F8389A761869BB0F00605A81 /* NZViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F8389A791869BB0F00605A81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8389A7A1869BB0F00605A81 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F8389A7D1869BB0F00605A81 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F8389A7E1869BB0F00605A81 /* InfoPlist.strings */,
+				F8389A801869BB0F00605A81 /* main.m */,
+				F8389A811869BB0F00605A81 /* NSString-Email-Info.plist */,
+				F8389A821869BB0F00605A81 /* NSString-Email-Prefix.pch */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F8389A8A1869BB1E00605A81 /* NSString-Email */ = {
+			isa = PBXGroup;
+			children = (
+				F8389A8B1869C03A00605A81 /* NSString+Email.h */,
+				F8389A8C1869C03A00605A81 /* NSString+Email.m */,
+			);
+			path = "NSString-Email";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8389A251869B97400605A81 /* NSString-Email */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8389A581869B97500605A81 /* Build configuration list for PBXNativeTarget "NSString-Email" */;
+			buildPhases = (
+				F8389A221869B97400605A81 /* Sources */,
+				F8389A231869B97400605A81 /* Frameworks */,
+				F8389A241869B97400605A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSString-Email";
+			productName = "NSString-Email";
+			productReference = F8389A261869B97400605A81 /* NSString-Email.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8389A1E1869B97300605A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NZ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "No Zebra Network";
+			};
+			buildConfigurationList = F8389A211869B97300605A81 /* Build configuration list for PBXProject "NSString-Email" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8389A1D1869B97300605A81;
+			productRefGroup = F8389A271869B97400605A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8389A251869B97400605A81 /* NSString-Email */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8389A241869B97400605A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8389A851869BB0F00605A81 /* Main.storyboard in Resources */,
+				F8389A871869BB0F00605A81 /* InfoPlist.strings in Resources */,
+				F8389A861869BB0F00605A81 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8389A221869B97400605A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8389A841869BB0F00605A81 /* NZAppDelegate.m in Sources */,
+				F8389A881869BB0F00605A81 /* main.m in Sources */,
+				F8389A8D1869C03A00605A81 /* NSString+Email.m in Sources */,
+				F8389A831869BB0F00605A81 /* NZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8389A7A1869BB0F00605A81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8389A7B1869BB0F00605A81 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8389A7E1869BB0F00605A81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8389A7F1869BB0F00605A81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8389A561869B97500605A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8389A571869B97500605A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8389A591869B97500605A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/SupportingFiles/NSString-Email-Prefix.pch";
+				INFOPLIST_FILE = "Example/SupportingFiles/NSString-Email-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8389A5A1869B97500605A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/SupportingFiles/NSString-Email-Prefix.pch";
+				INFOPLIST_FILE = "Example/SupportingFiles/NSString-Email-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8389A211869B97300605A81 /* Build configuration list for PBXProject "NSString-Email" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8389A561869B97500605A81 /* Debug */,
+				F8389A571869B97500605A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8389A581869B97500605A81 /* Build configuration list for PBXNativeTarget "NSString-Email" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8389A591869B97500605A81 /* Debug */,
+				F8389A5A1869B97500605A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8389A1E1869B97300605A81 /* Project object */;
+}

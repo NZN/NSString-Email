@@ -3,6 +3,10 @@ NSString-Email
 
 A category on NSString for checking if a string is an email address.
 
+<p align="center">
+  <img src="http://s24.postimg.org/amuiafe51/NSString_Email.png" alt="NSString-Email" title="NSString-Email" width="469" height="343">
+</p>
+
 [![Build Status](https://api.travis-ci.org/NZN/NSString-Email.png)](https://api.travis-ci.org/NZN/NSString-Email.png)
 [![Cocoapods](https://cocoapod-badges.herokuapp.com/v/NSString-Email/badge.png)](http://beta.cocoapods.org/?q=name%3Ansstring%20name%3Aemail%2A)
 [![Cocoapods](https://cocoapod-badges.herokuapp.com/p/NSString-Email/badge.png)](http://beta.cocoapods.org/?q=name%3Ansstring%20name%3Aemail%2A)
@@ -13,7 +17,7 @@ A category on NSString for checking if a string is an email address.
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add `NSString-Email` to your project.
 
-* Add a pod entry for NSString-Email to your Podfile `pod 'NSString-Email', '~> 0.0.1'`
+* Add a pod entry for NSString-Email to your Podfile `pod 'NSString-Email', '~> 0.0.2'`
 * Install the pod(s) by running `pod install`.
 
 ### Source files
