@@ -1,4 +1,4 @@
-NSString-Email
+NSString-Email ![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)
 ==============
 
 A category on NSString for checking if a string is an email address.
