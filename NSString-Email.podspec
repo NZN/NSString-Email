@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'NSString-Email'
-  s.version = '0.0.2'
+  s.version = '0.0.3'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.summary = 'A category on NSString for checking if a string is an email address.'
   s.homepage = 'https://github.com/NZN/NSString-Email'
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.authors = { 'Bruno Tortato Furtado' => 'bruno.furtado@gruponzn.com' }
   
   s.source_files = 'NSString-Email/*.{h,m}'
-  s.source = { :git => 'https://github.com/NZN/NSString-Email.git', :tag => '0.0.2' }  
+  s.source = { :git => 'https://github.com/NZN/NSString-Email.git', :tag => '0.0.3' }  
 end
