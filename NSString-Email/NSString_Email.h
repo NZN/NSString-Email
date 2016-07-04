@@ -7,13 +7,4 @@
 //
 
 #import <UIKit/UIKit.h>
-
-//! Project version number for NSString-Email.
-FOUNDATION_EXPORT double NSString_EmailVersionNumber;
-
-//! Project version string for NSString-Email.
-FOUNDATION_EXPORT const unsigned char NSString_EmailVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <NSString_Email/PublicHeader.h>
-
-<NSString_Email/NSString+Email.h>
+#import <NSString_Email/NSString+Email.h>
